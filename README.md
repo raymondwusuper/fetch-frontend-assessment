@@ -29,4 +29,4 @@ npm start
 ```
 http://localhost:3000
 ```
-5. **Have fun!**
+6. **Have fun!**
