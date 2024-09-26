@@ -15,7 +15,8 @@ git clone https://github.com/raymondwusuper/fetch-frontend-assessment
 2. **Navigate to the appropriate repository:**
    - After cloning the GitHub repository, it is necessary that you navigate to the dog-breed-gallery folder within the main directory. This is the folder that contains the main components of the app.
 ```bash
-cd path/name/to/your/repo/dog-breed-gallery
+cd path/name/to/your/repo/fetch
+cd dog-breed-gallery
 ```
 3. **Install the required packages using `npm install` or `npm i`:**
 ```bash
