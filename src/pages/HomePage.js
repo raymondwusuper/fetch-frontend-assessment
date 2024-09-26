@@ -5,11 +5,19 @@ import ImageGallery from '../components/ImageGallery';
 const HomePage = () => {
   const [selectedBreedId, setSelectedBreedId] = useState('');
 
+  const handleBreedSelect = (breedId) => {
+    setSelectedBreedId(breedId)
+  };
+
   return (
-    <div>
-      <h1>Dog Breed Gallery</h1>
-      <BreedSelector onBreedSelect={setSelectedBreedId} />
-      {selectedBreedId && <ImageGallery breedId={selectedBreedId} />}
+    <div className="container">
+      <h1 className="text-center my-4">Dog Breed Gallery</h1>
+      <div className="row">
+        <div className="col-12 col-md-6 offset-md-3">
+          <BreedSelector onBreedSelect={handleBreedSelect} />
+        </div>
+      </div>
+      <ImageGallery breedId={selectedBreedId} />
     </div>
   );
 };
