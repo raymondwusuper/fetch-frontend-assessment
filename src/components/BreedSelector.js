@@ -20,14 +20,22 @@ const BreedSelector = ({ onBreedSelect }) => {
   };
 
   return (
-    <select value={selectedBreed} onChange={handleBreedChange}>
-      <option value="">Select a breed</option>
-      {breeds.map((breed) => (
-        <option key={breed.id} value={breed.id}>
-          {breed.name}
-        </option>
-      ))}
-    </select>
+    <div className="form-group">
+      <label htmlFor="breedSelect">Select a Breed:</label>
+      <select
+        id="breedSelect"
+        className="form-control"
+        value={selectedBreed}
+        onChange={handleBreedChange}
+      >
+        <option value="">Select a breed</option>
+        {breeds.map((breed) => (
+          <option key={breed.id} value={breed.id}>
+            {breed.name}
+          </option>
+        ))}
+      </select>
+    </div>
   );
 };
 
