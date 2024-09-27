@@ -5,7 +5,6 @@ This **React + JS** web application where users can view an image gallery of the
 ## Requirements
 - **Node.js**
 - **npm**
-- **Dog API key (optional, only if API requires authentication)**
 
 ## Installation
 1. **Clone the Repository**
