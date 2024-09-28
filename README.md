@@ -1,6 +1,6 @@
 # fetch-frontend-assessment
 ## Overview
-This **React + JS** web application where users can view an image gallery of their favorite dog breeds using the Dog API. Users can select a dog breed, and the app will display images of the selected breeds.
+This is a **React + JS** web application where users can view an image gallery of their favorite dog breeds using the Dog API. Users can select one or more dog breeds, and the app will display images of the selected breeds.
 
 ## Requirements
 - **Node.js**
