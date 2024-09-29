@@ -19,6 +19,7 @@ cd path/name/to/your/repo/fetch
 3. **Install the required packages using `npm install` or `npm i`:**
 ```bash
 npm install
+npm install bootstrap
 ```
 4. **Once the dependencies are installed, run the following command to start the web application:**
 ```bash
