@@ -12,6 +12,7 @@ This is a **React + JS** web application where users can view an image gallery o
 git clone https://github.com/raymondwusuper/fetch-frontend-assessment
 ```
 2. **Navigate to the appropriate repository:**
+   - It is **imperative** that you **DO NOT** navigate to the 'src' folder, otherwise the React packages will not work.
 ```bash
 cd path/name/to/your/repo/fetch
 ```
